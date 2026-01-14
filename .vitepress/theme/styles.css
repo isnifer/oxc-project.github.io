@@ -15,6 +15,13 @@
   --color-brand: #0d6a73;
 }
 
+/* Align footer sections with header (px-6) */
+footer.bg-primary > .wrapper > div:nth-child(2),
+footer.bg-primary > .wrapper.wrapper--ticks {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 /*  Override unusual GitHub avatars */
 .VPTeamMembersItem {
   --member-item-avatar-size-small: 64px;
